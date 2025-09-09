@@ -1,0 +1,112 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Resources",
+                "title_short_nav": "Resources",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Resources}}"
+            },
+            "es": {
+                "title_short": "Recursos",
+                "title_short_nav": "Recursos",
+                "title_long_prefix": "Explora",
+                "title_long": "Algunos {{Recursos}} de utilidad"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleResources",
+            "locales": {
+                "en": {
+                    "title": "JavaScript"
+                },
+                "es": {
+                    "title": "JavaScript"
+                }
+            },
+            "settings": {
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/resource-javascript-course.png",
+                    "date": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "https://drive.google.com/drive/u/0/folders/1VnGl1zrcBTvvq1inMNAN8EK3LE1eSZb5",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "es": {
+                            "title": "Curso Profesional de JavaScript",
+                            "text": "Este es un curso de JavaScript desde 0 impartido por Código Facilito y subido en Google Drive"
+                        },
+                        "en": {
+                            "title": "Professional JavaScript Course",
+                            "text": "This is a JavaScript course from scratch taught by Código Facilito and uploaded to Google Drive."
+                        }
+                    },
+                    "tags": [
+                        "Curso",
+                        "Gratis"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "component": "ArticleResources",
+            "locales": {
+                "en": {
+                    "title": "SQL"
+                },
+                "es": {
+                    "title": "SQL"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/resource-javascript-course.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "##FFDE59",
+                        "fill": "##FFDE59"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://drive.google.com/drive/u/0/folders/1VnGl1zrcBTvvq1inMNAN8EK3LE1eSZb5?fbclid=IwAR3I2KA9H2q2S-hA-slch838WCYyDRw_6vypaEnaHqQ0ZIJetAUo6eFqVzU",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Curso Profesional de  {{JavaScript}} ",
+                            "text": "This is a JavaScript course from scratch taught by Codigo Facilito and uploaded to Google Drive."
+                        },
+                        "es": {
+                            "text": "Este es un curso de JavaScript desde 0 impartido por codigo facilito y subido en google drive"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

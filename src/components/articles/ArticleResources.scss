@@ -1,0 +1,104 @@
+@import "/src/styles/extend.scss";
+
+/* Grid: cards de ancho consistente; si hay 1 sola, NO se hace gigante */
+.article-resources-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 420px));
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Card base */
+.article-resources-item {
+  display: grid;
+  grid-template-rows: auto 1fr; /* banner arriba, contenido rellena */
+  background: var(--theme-boards-background);
+  border: 1px solid var(--theme-standard-borders);
+  border-radius: $standard-border-radius;
+  overflow: hidden;
+  transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.12);
+    border-color: var(--theme-standard-borders-accent);
+  }
+
+  &--as-link { text-decoration: none; color: inherit; }
+}
+
+/* Banner superior */
+.article-resources-item-banner {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--theme-boards-background-2);
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &-skeleton {
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,.04), rgba(255,255,255,.08), rgba(255,255,255,.04));
+    animation: shimmer 1.4s infinite linear;
+    background-size: 200% 100%;
+  }
+}
+
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+/* Contenido */
+.article-resources-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  padding: 16px;
+
+  .article-resources-item-title {
+    color: var(--theme-texts-light);
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .article-resources-item-desc {
+    color: var(--theme-texts-light-2);
+    flex: 1; /* empuja el botón al fondo */
+  }
+
+  .article-resources-item-date {
+    opacity: .9;
+    align-self: flex-start;
+  }
+
+  .article-resources-item-footer {
+    margin-top: .35rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/* Botón “Ir al recurso” */
+.resource-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .6rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--theme-standard-borders-accent);
+  background: transparent;
+  color: var(--theme-texts);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background .16s ease, transform .08s ease, border-color .16s ease;
+
+  &:hover {
+    background: rgba(255,255,255,.04);
+    border-color: var(--theme-standard-borders-accent);
+  }
+  &:active { transform: translateY(1px); }
+}

@@ -1,0 +1,65 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.3"
+    },
+
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "Albert<strong style=\"margin:4px;\">Z</strong>",
+        "subtitle": "Creattive Developer & Digital Artist",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": false
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        },
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"},
+                "es": {"name": "Modo Oscuro"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"},
+                "es": {"name": "Modo Claro"}
+            }
+        }
+    ],
+
+
+    "imagesToCache": []
+}

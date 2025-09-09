@@ -1,0 +1,1011 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_games": "Games",
+                    "category_utilities": "Utilities",
+                    "category_creative": "Creative"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_games": "Juegos",
+                    "category_utilities": "Utilidades",
+                    "category_creative": "Creativo"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_apps",
+                    "category_web",
+                    "category_games",
+                    "category_utilities",
+                    "category_creative"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/Codificador-HTML-CSS-JavaScript",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/Codificador-HTML-CSS-JavaScript/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-1.png",
+                            "images/pictures/portfolio-screenshot-project-web-1-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Text Encryptor",
+                            "text": "A simple yet interactive text encryption and decryption web tool built with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It replaces vowels with code words and allows copying results to the clipboard. Includes real-time DOM interaction and custom logic.",
+                            "tags": [
+                                "JavaScript",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Encriptador de Texto",
+                            "text": "Una herramienta web interactiva para <b>encriptar y desencriptar texto</b> construida con <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. Sustituye vocales por códigos definidos y permite copiar el resultado al portapapeles. Incluye interacción con el DOM y lógica personalizada.",
+                            "tags": [
+                                "JavaScript",
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-web-2-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "white",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/barberiaAlura",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/barberiaAlura/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-2.png",
+                            "images/pictures/portfolio-screenshot-project-web-2-2.png",
+                            "images/pictures/portfolio-screenshot-project-web-2-3.png",
+                            "images/pictures/portfolio-screenshot-project-web-2-4.png",
+                            "images/pictures/portfolio-screenshot-project-web-2-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Barbería Alura",
+                            "text": "A static website built with <b>HTML & CSS</b> for a fictional barbershop. It includes three main sections: <b>Home</b> (introduction and welcome message), <b>Products</b> (services and grooming items), and <b>Contact</b> (location and contact form). Designed with clean styling to simulate a professional business website.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "text": "Un sitio web estático creado con <b>HTML y CSS</b> para una barbería ficticia. Incluye tres secciones principales: <b>Inicio</b> (introducción y mensaje de bienvenida), <b>Productos</b> (servicios y artículos de cuidado personal) y <b>Contacto</b> (ubicación y formulario de contacto). Diseñado con un estilo limpio para simular una página profesional de negocio.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/Men-de-cafeteria",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/Men-de-cafeteria/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-3.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Camper Cafe Menu",
+                            "text": "A simple and elegant <b>HTML & CSS</b> project showcasing a fictional coffee shop menu. It features a warm coffee bean background, clear sections for <b>Coffee</b> and <b>Desserts</b>, and clean typography to simulate a real menu experience.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "text": "Un proyecto sencillo y elegante en <b>HTML y CSS</b> que presenta el menú ficticio de una cafetería. Incluye un cálido fondo de granos de café, secciones claras para <b>Café</b> y <b>Postres</b>, y una tipografía limpia que simula la experiencia de un menú real.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-paintbrush",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/maracdoresCSS",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/maracdoresCSS/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-4.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS Color Markers",
+                            "text": "A creative and visually engaging project built with <b>HTML & CSS</b>, simulating colorful markers using only styling techniques. It showcases <b>flexbox layouts</b>, <b>box shadows</b>, and custom color palettes, ideal for experimenting with design aesthetics.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Marcadores de Colores en CSS",
+                            "text": "Un proyecto visualmente creativo desarrollado con <b>HTML y CSS</b>, que simula marcadores de colores utilizando únicamente técnicas de estilo. Presenta uso de <b>flexbox</b>, <b>sombras</b> y paletas personalizadas, ideal para explorar estética y diseño.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-plus",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/formularioWeb",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/formularioWeb/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Registration Form",
+                            "text": "A fully styled registration form built with <b>HTML & CSS</b>. It includes fields for user data, account type selection, file upload, and consent checkbox. Designed with a clean and accessible layout to simulate real-world form structure.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Formulario de Registro",
+                            "text": "Un formulario de registro completamente estilizado usando <b>HTML y CSS</b>. Incluye campos para datos del usuario, selección de tipo de cuenta, carga de archivo, y aceptación de términos. Diseñado con una estructura clara y accesible para simular formularios reales.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-cat",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/PhotoGallery",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/PhotoGallery/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-6.webp",
+                            "images/pictures/portfolio-screenshot-project-web-6-2.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cat Photo Gallery",
+                            "text": "A responsive photo gallery built with <b>HTML & CSS</b>, using <b>Flexbox</b> to arrange images of cats in a clean and adaptive layout. This project demonstrates image handling, layout design, and basic responsiveness without JavaScript.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Flexbox"
+                            ]
+                        },
+                        "es": {
+                            "title": "Galería de Fotos de Gatos",
+                            "text": "Una galería de fotos responsiva creada con <b>HTML y CSS</b>, utilizando <b>Flexbox</b> para organizar imágenes de gatos en un diseño limpio y adaptable. El proyecto demuestra manejo de imágenes, diseño de layout y responsividad básica sin JavaScript.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Flexbox"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-microphone-lines",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/paginaTributoWos",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/paginaTributoWos/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-7.webp",
+                            "images/pictures/portfolio-screenshot-project-web-7-2.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WOS Tribute Page",
+                            "text": "A tribute website dedicated to <b>WOS</b>, built using <b>HTML & CSS</b>. It features biographical information, artist highlights, and a clean layout designed to showcase his career and influence. Ideal for practicing semantic HTML structure and visual storytelling.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Página Tributo a WOS",
+                            "text": "Una página tributo dedicada a <b>WOS</b>, desarrollada con <b>HTML y CSS</b>. Incluye información biográfica, trayectoria artística y un diseño limpio para destacar su carrera e impacto. Ideal para practicar estructura semántica en HTML y narración visual.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_games",
+                    "img": "images/pictures/portfolio-project-games-1-logo.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/theBreathOfWyrm",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/theBreathOfWyrm/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-games-1.webp",
+                            "images/pictures/portfolio-screenshot-project-games-1-2.webp",
+                            "images/pictures/portfolio-screenshot-project-games-1-3.webp",
+                            "images/pictures/portfolio-screenshot-project-games-1-4.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Breath of the Wyrm",
+                            "text": "A turn-based RPG-style browser game built with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. Players explore a fantasy world through interactive buttons, manage health, gold, and weapons, and battle monsters including a final dragon boss. The game includes a shop system, inventory logic, easter egg mini-game, and dynamic UI updates.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "Breath of the Wyrm",
+                            "text": "Un juego de navegador al estilo RPG por turnos creado con <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. El jugador recorre un mundo de fantasía, administra salud, oro e inventario, y lucha contra monstruos, incluyendo un jefe dragón final. Incluye sistema de tienda, lógica de combate, mini-juego secreto (huevo de pascua) y actualizaciones dinámicas de la interfaz.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_games",
+                    "img": "images/pictures/portfolio-project-games-2-logo.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://albert-z00z.github.io/roguelikeZombie/",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/roguelikeZombie/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-games-2.webp",
+                            "images/pictures/portfolio-screenshot-project-games-2-2.webp",
+                            "images/pictures/portfolio-screenshot-project-games-2-3.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cute Zombiies - Roguelike Shooter",
+                            "text": "A fast-paced roguelike shooter game made with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. Includes an arsenal of unlockable weapons, zombie AI, reloading system, randomized enemies, hardcore mode, and a dynamic canvas-based rendering engine. Features a custom intro sequence, responsive controls, and minimalist UI for an immersive browser experience.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Canvas"
+                            ]
+                        },
+                        "es": {
+                            "title": "Cute Zombiies - Shooter Roguelike",
+                            "text": "Un juego tipo roguelike de disparos creado con <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. Incluye un arsenal de armas desbloqueables, sistema de recarga, enemigos generados aleatoriamente, modo hardcore, y motor gráfico dinámico con canvas. Cuenta con una secuencia de introducción, controles responsivos y una interfaz minimalista para una experiencia inmersiva en navegador.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Canvas"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-web-8-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/pirataStudios",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/pirataStudios/index.html",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-8.webp",
+                            "images/pictures/portfolio-screenshot-project-web-8-2.webp",
+                            "images/pictures/portfolio-screenshot-project-web-8-3.webp",
+                            "images/pictures/portfolio-screenshot-project-web-8-4.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Piratas Studio - Game Showcase",
+                            "text": "A multi-page website built with <b>HTML</b>, <b>CSS</b> and a single <b>JavaScript</b> file. Designed as a video game showcase platform, it features a dynamic carousel slider, styled navigation menu, and multiple featured titles. The carousel uses DOM manipulation for smooth transitions and thumbnail control, all without external libraries.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "Piratas Studio - Portafolio de Videojuegos",
+                            "text": "Sitio web multipágina creado con <b>HTML</b>, <b>CSS</b> y un solo archivo de <b>JavaScript</b>. Diseñado como una vitrina para videojuegos, incluye un carrusel dinámico, menú de navegación estilizado y varios títulos destacados. El carrusel se gestiona con manipulación directa del DOM, sin usar librerías externas.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-book-open",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/documentacionCSS",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/documentacionCSS/#Introduccion_a_CSS",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-9.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS Documentation Page",
+                            "text": "A clean and structured documentation-style website built with <b>HTML</b> and <b>CSS</b>. This project simulates a technical guide for learning CSS, including topics like syntax, browser support, and historical context. It features a sidebar menu and semantic content layout designed for readability.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Página de Documentación CSS",
+                            "text": "Sitio web de estilo documentación creado con <b>HTML</b> y <b>CSS</b>. Simula una guía técnica para aprender CSS, con temas como sintaxis, soporte en navegadores e historia del lenguaje. Incluye un menú lateral y estructura semántica orientada a la lectura clara y ordenada.",
+                            "tags": [
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/generadorColoresHexadecimales",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/generadorColoresHexadecimales/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-10.png",
+                            "images/pictures/portfolio-screenshot-project-web-10-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Random Hex Background Generator",
+                            "text": "A minimalist color generator built with <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. It displays a random hexadecimal value and applies it to the background dynamically when a button is clicked. Perfect for experimenting with DOM manipulation and color arrays.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "Generador de Color de Fondo Hexadecimal Aleatorio",
+                            "text": "Generador simple de colores desarrollado con <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. Muestra un código hexadecimal aleatorio y lo aplica como fondo al hacer clic en un botón. Ideal para practicar manipulación del DOM y trabajar con arrays de colores.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-newspaper",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#000000"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/revistaFreeCodeCamp",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/revistaFreeCodeCamp/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-10.png",
+                            "images/pictures/portfolio-screenshot-project-web-10-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "FreeCodeCamp magazine",
+                            "text": "A static replica of the <b>freeCodeCamp</b> curriculum announcement page, crafted using only <b>HTML</b> and <b>CSS</b>. This project explores layout structuring, semantic elements, and strong typographic hierarchy, emulating the feel of a real article-based platform.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Layout"
+                            ]
+                        },
+                        "es": {
+                            "title": "Revista FreeCodeCamp",
+                            "text": "Réplica estática de la página del anuncio del nuevo currículum de <b>freeCodeCamp</b>, construida únicamente con <b>HTML</b> y <b>CSS</b>. El proyecto se enfoca en la estructura del contenido, el uso semántico de etiquetas y una jerarquía tipográfica fuerte que imita el estilo editorial de una plataforma real.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Diseño"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-web-12-logo.jpg",
+                    "faIcon": "fa-solid fa-newspaper",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://fixn-click.onrender.com/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-12.webp",
+                            "images/pictures/portfolio-screenshot-project-web-12-2.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fix'n Click - Online Store Prototype",
+                            "text": "A fully functional e-commerce prototype developed using only <b>HTML</b>, <b>CSS</b>, and <b>Vanilla JavaScript</b>. The app includes dynamic product rendering, category filtering, a cart system with local storage persistence, and responsive design. Designed for digital accessories, services, and gaming gift cards.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "Fix'n Click - Prototipo de Tienda Online",
+                            "text": "Prototipo completo de tienda virtual desarrollado únicamente con <b>HTML</b>, <b>CSS</b> y <b>JavaScript puro</b>. Incluye renderizado dinámico de productos, filtrado por categorías, carrito de compras con persistencia en <i>localStorage</i> y diseño responsivo. Ideal para simular ventas de accesorios digitales, servicios y gift cards.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-regular fa-message",
+                    "faIconColors": {
+                        "bg": "#8b5cf6",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://chatty-k35i.onrender.com/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-app-1.png",
+                            "images/pictures/portfolio-screenshot-project-app-1-2.png",
+                            "images/pictures/portfolio-screenshot-project-app-1-3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Chatty",
+                            "text": "A modern messaging app built with React, Next.js, Node.js, and MongoDB. Features include user authentication, profile customization, real-time chat, photo sharing, and theme selection.",
+                            "tags": [
+                                "React",
+                                "Next.js",
+                                "Node.js",
+                                "MongoDB",
+                                "Authentication"
+                            ]
+                        },
+                        "es": {
+                            "title": "Chatty",
+                            "text": "Una aplicación de mensajería moderna construida con React, Next.js, Node.js y MongoDB. Incluye autenticación de usuarios, personalización de perfil, chat en tiempo real, envío de fotos y selección de temas.",
+                            "tags": [
+                                "React",
+                                "Next.js",
+                                "Node.js",
+                                "MongoDB",
+                                "Autenticación"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-hashtag",
+                    "faIconColors": {
+                        "bg": "#078BFF",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/juego-secreto",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/juego-secreto/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-13.webp",
+                            "images/pictures/portfolio-screenshot-project-web-13-2.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Secret Number Game",
+                            "text": "A minimalist web game built with HTML, CSS, and JavaScript. The player must guess a secret number. Each attempt gives feedback until the correct number is found.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "Juego del Número Secreto",
+                            "text": "Un juego web minimalista hecho con HTML, CSS y JavaScript. El jugador debe adivinar un número secreto. Cada intento da pistas hasta acertar.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 17,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-web-15-logo.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://noesis-gt.dev/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-15.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Noesis",
+                            "text": "A corporate website designed and developed for Noesis, a software company focused on building custom digital solutions. Built using React, Vite, HTML, and CSS, this project demonstrates clean UI, scalability, and branding clarity on a production-level domain.",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "es": {
+                            "title": "Noesis",
+                            "text": "Sitio web corporativo diseñado y desarrollado para Noesis, una empresa de software enfocada en soluciones digitales personalizadas. Construido con React, Vite, HTML y CSS, este proyecto demuestra una interfaz limpia, escalabilidad y claridad de marca en un dominio en producción.",
+                            "tags": [
+                                "React",
+                                "Vite",
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 18,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-file-invoice-dollar",
+                    "faIconColors": {
+                        "bg": "#FFFFFF",
+                        "fill": "#00BFFF"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Albert-Z00Z/laughTale",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://albert-z00z.github.io/laughTale/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-14.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "LaughTale",
+                            "text": "A professional website developed for LaughTale, a digital accounting services company. Built with React, Node.js, Next.js, and MongoDB, it allows users to register, log in, send messages, and share photos through an elegant and user-friendly interface.",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "Next.js",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "LaughTale",
+                            "text": "Sitio web profesional desarrollado para LaughTale, una empresa de servicios contables digitales. Construido con React, Node.js, Next.js y MongoDB, permite a los usuarios registrarse, iniciar sesión, enviar mensajes y compartir fotos a través de una interfaz elegante y funcional.",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "Next.js",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 19,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-web-16-logo.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#00BFFF"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://metal-fusion-gt.com/",
+                                "tooltipString": "see_on_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-web-16.webp"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Metal Fusion",
+                            "text": "An e-commerce-style website created for Metal Fusion, a hardware and construction materials store. Built with Astro, TailwindCSS, TypeScript, JavaScript, and Vite, this site offers a modern and responsive interface, with real deployment and client use.",
+                            "tags": [
+                                "Astro",
+                                "TailwindCSS",
+                                "TypeScript",
+                                "JavaScript",
+                                "Vite"
+                            ]
+                        },
+                        "es": {
+                            "title": "Metal Fusion",
+                            "text": "Sitio web tipo e-commerce desarrollado para Metal Fusion, una tienda de herramientas y materiales de construcción. Desarrollado con Astro, TailwindCSS, TypeScript, JavaScript y Vite, ofrece una interfaz moderna, responsiva y se encuentra en uso real por parte del cliente.",
+                            "tags": [
+                                "Astro",
+                                "TailwindCSS",
+                                "TypeScript",
+                                "JavaScript",
+                                "Vite"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 20,
+                    "categoryId": "category_creative",
+                    "img": "images/pictures/portfolio-screenshot-project-creative-1.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            
+                        ],
+                        "screenshots": [
+                            "images/pictures/portfolio-screenshot-project-creative-1.webp"
+                        ],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Digital Awakening",
+                            "text": "My first digital drawing, created using Krita. A tribute to Goku, reimagined in a dark, powerful silhouette style that captures both innocence and inner strength. This piece marked the beginning of my journey into digital art and character reinterpretation.",
+                            "tags": [
+                                "Krita",
+                                "Digital Art",
+                                "Illustration",
+                                "Fan Art"
+                            ]
+                        },
+                        "es": {
+                            "title": "Despertar Digital",
+                            "text": "Mi primer dibujo digital, realizado en Krita. Un tributo a Goku, reinterpretado con un estilo oscuro y poderoso en silueta, que captura tanto la inocencia como la fuerza interior. Esta obra marcó el inicio de mi camino en el arte digital y la reinterpretación de personajes.",
+                            "tags": [
+                                "Krita",
+                                "Arte Digital",
+                                "Ilustración",
+                                "Fan Art"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
