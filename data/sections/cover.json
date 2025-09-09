@@ -1,0 +1,346 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Juan Alberto Aguilar}}"
+            },
+            "es": {
+                "title_short": "¡Bienvenido!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Juan Alberto Aguilar}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 500
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "San Jose – Escuintla",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "juan.aguilarcorado@gmail.com",
+                    "link": {
+                        "href": "mailto:juan.aguilarcorado@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Albert-Z00Z",
+                    "link": {
+                        "href": "https://github.com/Albert-Z00Z",
+                        "tooltipString": "see_on_github"
+                    },
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                },
+                "es": {
+                    "title": "{{Un poco}} sobre mí..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Creative Developer}} and [[Digital Artist]] with a deep passion for web development, design, and storytelling. I love blending logic and aesthetics to create immersive and purposeful experiences.</p><p>I’m currently studying {{Systems Engineering}}, exploring game development, animation, and interactive design to bring my ideas to life.</p><p>This portfolio is a reflection of my code and my passions. Welcome—hope you enjoy what you see.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un {{Desarrollador Creativo}} y [[Artista Digital]] con una profunda pasión por el desarrollo web, el diseño y la narrativa. Me encanta combinar la lógica con la estética para crear experiencias inmersivas y con propósito.</p><p>Actualmente estudio {{Ingeniería en Sistemas}}, explorando desarrollo de videojuegos, animación y diseño interactivo para dar vida a mis ideas.</p><p>Este portafolio es un reflejo de mi código y lo que me apasiona. Bienvenido espero te guste lo que veas.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "{{Testimonials}}"
+                },
+                "es": {
+                    "title": "{{Testimonios}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Nelson Herrarte",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-1.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Study partner",
+                            "text": "As a student, he’s someone who doesn’t give up easily. His self-taught approach is one of his greatest strengths, as he always finds a way to overcome challenges in projects or studies."
+                        },
+                        "es": {
+                            "title": "Compañero de estudio",
+                            "text": "Como estudiante, es una persona que no se rinde fácilmente. Su actitud autodidacta es una de sus mayores fortalezas, ya que siempre encuentra la manera de resolver los problemas que surgen en proyectos o estudios."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Cecilia Alquejay",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-2.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Former coworker",
+                            "text": "Alberto stands out for his commitment, responsibility, and strong technical skills. He is proactive, with exceptional critical thinking and a remarkable ability to tackle challenges. His ambition and entrepreneurial spirit make him a professional with great potential to succeed in everything he sets out to do."
+                        },
+                        "es": {
+                            "title": "Excompañera de trabajo",
+                            "text": "Alberto se distingue por su compromiso, responsabilidad y sólida capacidad técnica. Es proactivo, con un pensamiento crítico excepcional y una gran disposición para enfrentar desafíos. Su ambición y espíritu emprendedor lo convierten en un profesional con gran potencial para alcanzar el éxito."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Dulce Diaz",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-3.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Friend",
+                            "text": "He is a person with strong values, loving, and with clear goals. He knows how to face difficult situations with determination. As a best friend, he’s everything: loyal, honest, he pushes you to be better and always sees the best in you. He listens attentively and values what you share and trust."
+                        },
+                        "es": {
+                            "title": "Amiga",
+                            "text": "Es una persona con valores, fuerte, amoroso y con metas claras. Sabe enfrentar situaciones difíciles con determinación. Como mejor amigo es todo: leal, honesto, te impulsa a ser mejor y siempre ve lo mejor de ti. Escucha con atención y valora lo que compartes y confías."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Lucila Godoy",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-4.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Study Partner",
+                            "text": "“Working with Albert has been an incredible experience. His creativity and mastery of web development are reflected in every detail. He's punctual, committed, and always exceeds expectations. His talent truly makes the difference!”"
+                        },
+                        "es": {
+                            "title": "Compañera de Estudio",
+                            "text": "“Trabajar con Albert ha sido una experiencia increíble. Su creatividad y dominio en desarrollo web se reflejan en cada detalle. Es puntual, comprometido y siempre supera expectativas. ¡Su talento realmente marca la diferencia!”"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal {{interests}}"
+                },
+                "es": {
+                    "title": "Intereses {{personales}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Game {{Development}}",
+                            "text": "Learning 2D/3D game design, animation, logic systems and storytelling."
+                        },
+                        "es": {
+                            "title": "Desarrollo de {{Videojuegos}}",
+                            "text": "Aprendiendo diseño de juegos 2D/3D, animación, lógica y narrativa."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "locales": {
+                        "en": {
+                            "title": "Digital {{Art}} & Illustration",
+                            "text": "Creating expressive illustrations and visual concepts for games and personal stories."
+                        },
+                        "es": {
+                            "title": "{{Arte}} Digital e Ilustración",
+                            "text": "Creando ilustraciones expresivas y conceptos visuales para juegos e historias personales."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web {{Development}}",
+                            "text": "Building web projects using JavaScript, React, Node.js and more."
+                        },
+                        "es": {
+                            "title": "Desarrollo {{Web}}",
+                            "text": "Desarrollando proyectos web con JavaScript, React, Node.js y más."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-cube",
+                    "locales": {
+                        "en": {
+                            "title": "Narrative {{Animation}}",
+                            "text": "Learning to bring drawings to life through storytelling-focused animation."
+                        },
+                        "es": {
+                            "title": "Animación {{Narrativa}}",
+                            "text": "Aprendiendo a dar vida a los dibujos a través de la animación enfocada en la narrativa."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-eye",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "UI/UX {{Exploration}}",
+                            "text": "Studying user experience and experimenting with interaction design."
+                        },
+                        "es": {
+                            "title": "Exploración de {{UI/UX}}",
+                            "text": "Estudiando experiencia de usuario y experimentando con diseño de interacción."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fitness & Discipline",
+                            "text": "Training to strengthen mind, body and creative focus."
+                        },
+                        "es": {
+                            "title": "Entrenamiento y Disciplina",
+                            "text": "Entrenando para fortalecer mente, cuerpo y enfoque creativo."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

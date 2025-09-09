@@ -1,0 +1,211 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/work-experience-1.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2020,
+                        "month": 12
+                    },
+                    "dateEnd": {
+                        "year": 2022,
+                        "month": 10
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Payment Teller",
+                            "province": "Puerto San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Q,S.A. (Corporación BI)",
+                            "text": "Provided customer service and managed daily banking operations including cash handling, deposits, withdrawals, and payment processing. Ensured transaction accuracy and compliance with internal banking protocols.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Receptor Pagador",
+                            "province": "Puerto San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Q,S.A. (Corporación BI)",
+                            "text": "Atendí al público y gestioné operaciones bancarias diarias, incluyendo manejo de efectivo, depósitos, retiros y pagos. Aseguré la precisión de las transacciones y el cumplimiento de los protocolos internos del banco.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/work-experience-2.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Billing Assistant",
+                            "province": "Escuintla, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Cartones de Guatemala, S.A.",
+                            "text": "Responsible for preparing and issuing invoices, verifying customer data, managing internal records, and supporting administrative and accounting processes using Microsoft Office tools.",
+                            "list": [],
+                            "tags": [
+                                "Billing",
+                                "Microsoft Office",
+                                "Accounting"
+                            ]
+                        },
+                        "es": {
+                            "title": "Facturador",
+                            "province": "Escuintla, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Cartones de Guatemala, S.A.",
+                            "text": "Encargado de elaborar y emitir facturas, verificar datos de clientes, gestionar registros internos y apoyar procesos administrativos y contables utilizando herramientas de Microsoft Office.",
+                            "list": [],
+                            "tags": [
+                                "Facturación",
+                                "Microsoft Office",
+                                "Contabilidad"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/work-experience-3.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Blockchain Developer in Solana",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "czlabs",
+                            "text": "Developed applications on the Solana blockchain using Rust and Node.js, implementing smart contracts and decentralized systems. Worked in Linux environments with a focus on scalability, security, and performance.",
+                            "list": [],
+                            "tags": [
+                                "Solana",
+                                "Rust",
+                                "Node.js",
+                                "Blockchain",
+                                "Smart Contracts"
+                            ]
+                        },
+                        "es": {
+                            "title": "Desarrollador Blockchain en Solana",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "czlabs",
+                            "text": "Desarrollé aplicaciones sobre la blockchain de Solana utilizando Rust y Node.js, implementando contratos inteligentes y sistemas descentralizados. Trabajo en entornos Linux, enfocado en escalabilidad, seguridad y rendimiento.",
+                            "list": [],
+                            "tags": [
+                                "Solana",
+                                "Rust",
+                                "Node.js",
+                                "Blockchain",
+                                "Contratos inteligentes"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/work-experience-4.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 12
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Billing Assistant",
+                            "province": "Puerto San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "UNO Centroamérica",
+                            "text": "Responsible for reviewing and issuing invoices, managing customer billing data, and supporting accounting processes. Worked on-site in coordination with logistics and administrative departments.",
+                            "list": [],
+                            "tags": [
+                                "Billing",
+                                "Accounting",
+                                "Invoicing",
+                                "Microsoft Office"
+                            ]
+                        },
+                        "es": {
+                            "title": "Facturador",
+                            "province": "Puerto San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "UNO Centroamérica",
+                            "text": "Encargado de la revisión y emisión de facturas, gestión de datos de facturación de clientes y apoyo en procesos contables. Trabajo presencial en coordinación con los departamentos de logística y administración.",
+                            "list": [],
+                            "tags": [
+                                "Facturación",
+                                "Contabilidad",
+                                "Procesos administrativos",
+                                "Microsoft Office"
+                            ]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

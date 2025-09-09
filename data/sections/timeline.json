@@ -1,0 +1,406 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Time line",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Linea de tiempo",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "01",
+                            "text": "Apps Published"
+                        },
+                        "es": {
+                            "text": "Aplicaciones Publicadas"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Games Developed"
+                        },
+                        "es": {
+                            "text": "Juegos Desarrollados"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "20+",
+                            "text": "Projects Completed"
+                        },
+                        "es": {
+                            "text": "Proyectos terminados"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Art & Code",
+                            "text": "Creative Projects"
+                        },
+                        "es": {
+                            "text": "Proyectos Creativos"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Noesis",
+                            "text": "My Software Studio"
+                        },
+                        "es": {
+                            "text": "Mi Estudio de Software"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        },
+                        "es": {
+                            "text": "Cafés Consumidos"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Quick {{Facts}}"
+                },
+                "es": {
+                    "title": "Feed de {{Noticias}}"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "year": 2016,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/screenshot-timeline-1.jpg"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "My First Drawing",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "In July 2016, I created my very first drawing. It was the starting point of my journey into art, a moment that sparked my passion for creativity and visual expression. That simple sketch became the foundation of my artistic path."
+                        },
+                        "es": {
+                            "title": "Mi Primer Dibujo",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "En julio de 2016 realicé mi primer dibujo. Fue el inicio de mi camino en el arte, un momento que despertó mi pasión por la creatividad y la expresión visual. Ese sencillo boceto se convirtió en la base de mi trayectoria artística."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2022,
+                        "month": 2
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started my {{Systems Engineering Studies!}}",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "University",
+                            "text": "In February 2022, I began my university journey in Systems Engineering. This step marked the foundation of my professional path, opening doors to knowledge in programming, databases, operating systems, and much more. A new chapter of growth and challenges began here."
+                        },
+                        "es": {
+                            "title": "Inicié mis estudios en {{Ingeniería en Sistemas!}}",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "Universidad",
+                            "text": "En febrero de 2022 inicié mi camino universitario en Ingeniería en Sistemas. Este paso marcó la base de mi trayectoria profesional, abriendo puertas al conocimiento en programación, bases de datos, sistemas operativos y mucho más. Aquí comenzó un nuevo capítulo de crecimiento y desafíos."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "year": 2022,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Rethinking my path",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "After my first semester in Systems Engineering, I felt lost. I couldn’t understand much, and I thought engineering wasn’t for me. I even considered switching careers to something more related to art and drawing. It was a time of doubt and reflection."
+                        },
+                        "es": {
+                            "title": "Repensando mi camino",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "Tras mi primer semestre en Ingeniería en Sistemas me sentí perdido. No entendía mucho y pensé que la ingeniería no era para mí. Decidí tomar una pausa. Incluso consideré cambiarme de carrera a algo más relacionado con el arte y el dibujo. Fue un tiempo de dudas y reflexión."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "year": 2022,
+                        "month": 9
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Self-learning journey",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "Around August 2022, I began exploring programming and technology on my own. Through online courses and practice, I slowly built confidence and discovered my passion for coding outside the classroom."
+                        },
+                        "es": {
+                            "title": "Viaje autodidacta",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "A partir de agosto de 2022 empecé a explorar la programación y la tecnología por mi cuenta. Mediante cursos en línea y práctica como freecodecamp, youtubers como dalto, midudev entre otros, poco a poco fui ganando confianza y descubrí mi pasión por la programación fuera del aula."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {
+                        "year": 2023,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Returning to Systems Engineering",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "University",
+                            "text": "In July 2023, I decided to return to my Systems Engineering studies. Thanks to my self-learning, I came back with a stronger foundation, more clarity, and a renewed determination to achieve my goals."
+                        },
+                        "es": {
+                            "title": "Regresando a Ingeniería en Sistemas",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "Universidad",
+                            "text": "En julio de 2023 decidí retomar mis estudios en Ingeniería en Sistemas. Gracias al aprendizaje autodidacta regresé con una base más sólida, mayor claridad y una determinación renovada para alcanzar mis metas."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://noesis-gt.dev/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-building"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "co-Founded {{Noesis!}}",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "In June 2025, I officially co-founded Noesis, my own software studio. This project represents more than just coding: it’s about creativity, entrepreneurship, and building digital solutions with impact. Noesis is the fusion of art and technology, my vision turned into a brand."
+                        },
+                        "es": {
+                            "title": "Co-Fundé {{Noesis!}}",
+                            "province": "",
+                            "country": "Guatemala",
+                            "institution": "",
+                            "text": "En junio de 2025 co-fundé oficialmente Noesis, mi propio estudio de software. Este proyecto representa más que solo programar: se trata de creatividad, emprendimiento y construir soluciones digitales con impacto. Noesis es la fusión de arte y tecnología, mi visión convertida en una marca."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Taking the {{This Is Animation}} course",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "Sony Pictures Animation · Sony Imageworks · Yellowbrick",
+                            "text": "I enrolled in *This Is Animation*, an online course by Sony Pictures Animation, Sony Pictures Imageworks, and Yellowbrick. The program explores the creative and technical processes behind animated films—from concept and characters to worldbuilding and production. This course fuels my passion for animation and brings me closer to blending code, storytelling, and art in future projects."
+                        },
+                        "es": {
+                            "title": "Tomando el curso {{This Is Animation}}",
+                            "province": "",
+                            "country": "En línea",
+                            "institution": "Sony Pictures Animation · Sony Imageworks · Yellowbrick",
+                            "text": "Me inscribí en *This Is Animation*, un curso en línea de Sony Pictures Animation, Sony Pictures Imageworks y Yellowbrick. El programa explora los procesos creativos y técnicos detrás de las películas animadas: desde la idea y los personajes hasta la construcción de mundos y la producción. Este curso alimenta mi pasión por la animación y me acerca a fusionar código, narrativa y arte en futuros proyectos."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

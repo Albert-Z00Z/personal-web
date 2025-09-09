@@ -1,0 +1,192 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "es": {
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
+                "title_long_prefix": "Esta es mi",
+                "title_long": "{{Formación}} Educativa"
+            }
+        }
+    },
+
+    "articles": [
+                {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                
+
+                {
+                    "id": 1,
+                    "img": "images/pictures/certification-carlos-slim.png",
+                    "faIcon": "fa-solid fa-laptop",
+                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
+                    "date": {"year": 2024, "month": 1},
+                    "link": {"href": "https://capacitateparaelempleo.org/verifica/d9b1cdfd-5e96-4e21-9563-e3ea9b8cd6c5/5ee4dce5-5bd4-49b8-896d-d8b419024b79", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "Fundacion {{Carlos Slim}} ",
+                            "text": "Laptop repair technician"
+                        },
+                        "es": {
+                            "text": "Técnico en reparación de laptops"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/certification-alura.png",
+                    "faIcon": "fa-brands fa-algolia",
+                    "faIconColors": {"bg": "#2D2D2D", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 3},
+                    "link": {"href": "https://app.aluracursos.com/degree/certificate/3ff644ef-e343-4b9d-9d73-e0abc0c44884", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Oracle}} Next Education",
+                            "text": "Programming Logic with JavaScript"
+                        },
+                        "es": {
+                            "text": "Lógica de programación con JavaScript"
+
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "images/pictures/certification-alura.png",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 3},
+                    "link": {"href": "https://app.aluracursos.com/certificate/2d67004d-9ac7-43a8-b43f-9abe2144ab8e", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Oracle}} Next Education",
+                            "text": "Git and GitHub: repository, commits, and versions"
+                        },
+                        "es": {
+                            "text": "Git y GitHub: repositorio, commit y versiones"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-free-code-camp",
+                    "faIconColors": {"bg": "#000000", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 4},
+                    "link": {"href": "https://www.freecodecamp.org/certification/fcc749966c2-1c56-493a-925d-1708408c80d9/responsive-web-design", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{FreeCodeCamp}}",
+                            "text": "Responsive Web Design"
+                        },
+                        "es": {
+                            "text": "Diseño Web Responsivo"
+                        }
+                    }
+                },
+                 
+                {
+                    "id": 5,
+                    "img": "images/pictures/certification-intecap.png",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#ffffff", "fill": "#EEE"},
+                    "date": {"year": 2024, "month": 5},
+                    "link": {"href": "https://portales.intecap.edu.gt/validacion/ValidacionConsultar.aspx?td=CON&re=2024-046247", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{INTECAP}}",
+                            "text": " Networking Essentials"
+                        },
+                        "es": {
+                            "text": " Networking Essentials"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-education-diversificada.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2018, "month": 1},
+                    "dateEnd": {"year": 2020, "month": 10},
+                    "locales": {
+                        "en": {
+                            "title": "{{expert accountant}}",
+                            "province": "San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Instituto Diversificado de Educación por Cooperativa de Enseñanza El Esfuerzo",
+                            "text": "Completed a comprehensive technical program focused on accounting, business administration, and financial analysis, acquiring practical experience in preparing financial statements, managing accounting systems, and understanding national tax regulations.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "{{Perito Contador}}",
+                            "province": "San José, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Instituto Diversificado por Cooperativa de Enseñanza El Esfuerzo",
+                            "text": "Finalicé un programa técnico integral enfocado en contabilidad, administración de empresas y análisis financiero, adquiriendo experiencia práctica en la elaboración de estados financieros, manejo de sistemas contables y comprensión de la normativa fiscal nacional.",
+                            "list": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/timeline-education-university.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "ffffff", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 2},
+                    "dateEnd": {"year": 2025, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Engineering}} in Information Systems and Computer Science",
+                            "province": "Escuintla, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "University Mariano Galvez de Guatemala",
+                            "text": "Earned a [[Bachelor's degree in Computer Science]], focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects, coding boot camps, and many collaborative team-based software development activities.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "{{Ingeniería}} en Sistemas de la Información y Ciencias de la Computación",
+                            "province": "Escuintla, Escuintla",
+                            "country": "Guatemala",
+                            "institution": "Universidad Mariano Gálvez de Guatemala",
+                            "text": "Actualmente curso la carrera de Ingeniería en Sistemas de Información y Ciencias de la Computación, con formación académica y práctica en desarrollo de software, bases de datos, redes y análisis de sistemas. Participo en proyectos de programación en equipo y me mantengo en constante aprendizaje a través de los cursos y el desarrollo personal.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
